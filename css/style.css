@@ -180,7 +180,7 @@ p{
   padding: 40px 20px;
   background: #fff;
   border-radius: 5px;
-  width: 480px;
+  width: 500px;
   position: relative;
   transition: all 5s ease-in-out;
 }
@@ -190,6 +190,10 @@ p{
   color: #656565;
 	font-size: 3em;
   font-family: Tahoma, Arial, sans-serif;
+}
+
+.popup h2 span {
+    font-weight: bold;
 }
 
 .popup h3 {
@@ -411,8 +415,14 @@ header .logo{
 }
 
 .navbar.navbar-desktop a {
-    color: #FFF !important;
-    font-size: 26px
+    color: #FFF;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.navbar.navbar-desktop a:hover {
+    color: #333;
+    -webkit-transition: all ease 0.3s;
 }
 /*------------------------ 3 HOME SECTION ------------------------*/
 
@@ -625,7 +635,6 @@ section{
 }
 
 .section-title .title{
-   font-family: 'BebasNeueRegular';
    font-weight: normal;
    font-style: normal;
    font-size: 40px;
