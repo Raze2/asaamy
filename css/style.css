@@ -19,7 +19,7 @@
     6. BLOG SECTION
     7. CONTACT SECTION
     8. RESPOMSIVE
-
+    9. RTL CHANGES
 
 /*------------------------ 1 BODY & CORE CSS ------------------------*/
 
@@ -200,7 +200,8 @@ p{
 }
 
 .popup p {
-	color: #aca4a5
+    color: #aca4a5;
+    font-size: 22px
 }
 
 .popup .close {
@@ -398,14 +399,16 @@ header .logo{
     line-height: 24px;
 }
 
-.navbar.navbar-desktop {
+.navbar-desktop {
 	background-color: #686868;
 	outline: 0 !important;
-	border: 0 !important
+    border: 0 !important;
+    z-index: 5
 }
 
 .navbar.navbar-desktop a {
-	color: #FFF !important
+    color: #FFF !important;
+    font-size: 26px
 }
 /*------------------------ 3 HOME SECTION ------------------------*/
 
@@ -447,10 +450,9 @@ header .logo{
 }
 
 .home .home-content p {
-    font-size: 17px;
+    font-size: 52px;
     color: #fff;
     line-height: 33px;
-    opacity: 0.7;
 }
 
 .social a:hover i{
@@ -641,11 +643,6 @@ section{
     left: 50%;
     margin-left: -26px;
     letter-spacing: -2px;
-}
-
-.about .image{
-     padding-bottom: 70px;
-     background: #f3f3f3;
 }
 
 .about .image img{
@@ -1069,4 +1066,18 @@ footer p{
         padding: 15px;
     }
 
+}
+
+/* RTL CHANGES */
+
+.collapse.navbar-collapse {
+    justify-content: flex-end
+}
+
+.navbar-toggleable-md .navbar-nav {
+    flex-direction: row-reverse
+}
+
+h2.title {
+    color: #656565
 }
