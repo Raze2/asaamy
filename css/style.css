@@ -177,10 +177,10 @@ p{
 
 .popup {
   margin: 70px auto;
-  padding: 20px;
+  padding: 40px 20px;
   background: #fff;
   border-radius: 5px;
-  width: 50%;
+  width: 480px;
   position: relative;
   transition: all 5s ease-in-out;
 }
@@ -199,6 +199,10 @@ p{
 	margin-bottom: 20px
 }
 
+.popup .form-rtl {
+    direction: rtl;
+}
+
 .popup p {
     color: #aca4a5;
     font-size: 22px
@@ -206,8 +210,8 @@ p{
 
 .popup .close {
   position: absolute;
-  top: 20px;
-  right: 30px;
+  top: 16px;
+  right: 17px;
   transition: all 200ms;
   font-size: 30px;
   font-weight: bold;
