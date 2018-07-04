@@ -888,6 +888,7 @@ section{
     padding-left: 10px;
     margin-bottom: 15px;
     font-family: 'Poppins', sans-serif;
+    text-align: right
 }
 
 .contact-form textarea {
@@ -899,6 +900,7 @@ section{
     height: 119px;
     margin-bottom: 15px;
     font-family: 'Poppins', sans-serif;
+    text-align: right
 }
 
 footer{
